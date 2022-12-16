@@ -12,6 +12,7 @@ struct HomeView: View {
         VStack {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             Text("Initial commit")
+            Text("Add New line")
         }
     }
 }
