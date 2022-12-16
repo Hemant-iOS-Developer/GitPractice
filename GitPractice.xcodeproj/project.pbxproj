@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C701BC94294C7C7E00423541 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701BC93294C7C7E00423541 /* HomeView.swift */; };
 		C73DF44B294C7BE700E4F0FE /* GitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73DF44A294C7BE700E4F0FE /* GitPracticeApp.swift */; };
 		C73DF44D294C7BE700E4F0FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73DF44C294C7BE700E4F0FE /* ContentView.swift */; };
 		C73DF44F294C7BE900E4F0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73DF44E294C7BE900E4F0FE /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C701BC93294C7C7E00423541 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C73DF447294C7BE700E4F0FE /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73DF44A294C7BE700E4F0FE /* GitPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeApp.swift; sourceTree = "<group>"; };
 		C73DF44C294C7BE700E4F0FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C701BC90294C7C4C00423541 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C701BC91294C7C5400423541 /* Home */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C701BC91294C7C5400423541 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C701BC92294C7C5E00423541 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C701BC92294C7C5E00423541 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C701BC93294C7C7E00423541 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C73DF43E294C7BE700E4F0FE = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +120,7 @@
 		C73DF449294C7BE700E4F0FE /* GitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C701BC90294C7C4C00423541 /* App */,
 				C73DF44A294C7BE700E4F0FE /* GitPracticeApp.swift */,
 				C73DF44C294C7BE700E4F0FE /* ContentView.swift */,
 				C73DF44E294C7BE900E4F0FE /* Assets.xcassets */,
@@ -257,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C701BC94294C7C7E00423541 /* HomeView.swift in Sources */,
 				C73DF44D294C7BE700E4F0FE /* ContentView.swift in Sources */,
 				C73DF44B294C7BE700E4F0FE /* GitPracticeApp.swift in Sources */,
 			);
